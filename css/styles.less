@@ -1,0 +1,187 @@
+
+body 
+{
+	
+	margin-bottom: -102px; 
+	background-color: #1e5b7d;
+	background-color: rgba(30,91,125,.60);
+	filter: alpha(opacity=60);
+	#bg
+	{
+		position: fixed; 
+		top: -50%; 
+		left: -50%; 
+		width: 200%; 
+		height: 200%;
+		.background
+		{
+			position: absolute; 
+  			top: 0; 
+  			left: 0; 
+  			right: 0; 
+  			bottom: 0; 
+  			margin: auto; 
+			min-width: 50%;
+  			min-height: 50%;
+  			opacity: .6;
+		}
+	}
+	
+	#header
+	{
+		overflow: hidden;
+		position: relative;
+		.logos
+		{
+			float: left;
+			overflow: hidden;
+			margin: 1% 0 0 2%;
+			.logo
+			{
+				float: left;
+			}
+			.second-logo
+			{
+				float: left;
+				padding: 15px 0 0 5px;
+			}
+		}
+		.socials
+		{
+			margin: 2% 3% 0 0;
+			float: right;
+			.social-list
+			{
+				list-style-type: none;
+				.social-list__item 
+				{
+					display: inline-block;
+				}
+			}
+		}
+	}
+	.contacts
+	{
+		position: relative;
+		text-align: center;
+		.contact-info
+		{
+			padding: 7% 0 0 0;
+			color: #fff;
+			font-size: 22px;
+			span
+			{
+				color: #000;
+				font-size: 64px;
+			}
+		}
+	}
+	.about
+	{
+		position: relative;
+		text-align: center;
+		.about-info
+		{
+			padding: 7% 0 0 0;
+			color: #fff;
+			font-size: 22px;
+			span
+			{
+				color: #000;
+				font-size: 64px;
+			}
+		}
+	}
+	.projects
+	{
+		position: relative;
+		text-align: center;
+		.projects-info
+		{
+			padding: 7% 0 0 0;
+			color: #fff;
+			font-size: 22px;
+			span
+			{
+				color: #000;
+				font-size: 64px;
+			}
+		}
+	}
+	#footer 
+	{
+		clear:both;
+		position: fixed;
+		top: 90%;
+		width: 100%;
+		
+		.row
+		{
+			.col-md-4
+			{
+				text-align: center;
+				padding: 0;
+				position: relative;
+				height: 74px;
+				.about
+				{
+					padding: 15px 0 0 0;
+					height: 74px;
+					background: #f89c1c;
+					margin: 28px 0 -28px 0;
+					display: block;
+					color: #fff;
+					
+				}
+				.about:hover
+				{
+					height: 108px;
+					margin: 0 0 -28px 0;
+					text-decoration: none;
+				}
+				.projects
+				{
+					padding: 15px 0 0 0;
+					height: 74px;
+					display: block;
+					color: #fff;
+					margin: 28px 0 -28px 0;
+					background: rgba(246,41,12,1);
+					background: -moz-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(50,116,46,1) 0%, rgba(0,161,75,1) 100%);
+					background: -webkit-gradient(left top, right top, color-stop(0%, rgba(246,41,12,1)), color-stop(0%, rgba(50,116,46,1)), color-stop(100%, rgba(0,161,75,1)));
+					background: -webkit-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(50,116,46,1) 0%, rgba(0,161,75,1) 100%);
+					background: -o-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(50,116,46,1) 0%, rgba(0,161,75,1) 100%);
+					background: -ms-linear-gradient(left, rgba(246,41,12,1) 0%, rgba(50,116,46,1) 0%, rgba(0,161,75,1) 100%);
+					background: linear-gradient(to right, rgba(246,41,12,1) 0%, rgba(50,116,46,1) 0%, rgba(0,161,75,1) 100%);
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f6290c', endColorstr='#00a14b', GradientType=1 );
+				}
+				.projects:hover
+				{
+					text-decoration: none;
+					margin: 0 0 -28px 0;
+					height: 108px;
+				}
+				.contacts
+				{
+					margin: 28px 0 -28px 0;
+					padding: 15px 0 0 0;
+					height: 74px;
+					display: block;
+					color: #fff;
+					background: #003974;
+				}
+				.contacts:hover
+				{
+					text-decoration: none;
+					margin: 0 0 -28px 0;
+					height: 108px;
+				}
+				.active
+				{
+					height: 108px;
+					margin: 0 0 -28px 0;
+				}
+			}
+		}
+	}
+}
