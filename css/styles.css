@@ -236,13 +236,13 @@ ul, ol
 .index-logo
 {
 	position: absolute;
-	top: 20%;
-	left: 50%;
+	top: 10%;
+	left: 40%;
 	opacity: .8;
 }
 .huge
 {
-  font-size: 15em;
+  font-size: 12em;
   line-height: 0.7em;
   opacity: 0.8;
 }
