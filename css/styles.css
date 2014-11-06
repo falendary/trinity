@@ -1,8 +1,14 @@
+@font-face
+{
+  src: url(../fonts/Roboto-Regular.ttf);
+  font-family: 'Roboto-Regular';
+}
 body {
   margin-bottom: -102px;
   background-color: #1e5b7d;
   background-color: rgba(30, 91, 125, 0.6);
   filter: alpha(opacity=60);
+  font-family: 'Roboto-Regular';
 }
 body #bg {
   position: fixed;
